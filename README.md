@@ -36,3 +36,14 @@ Hey! 👋 If you're also a beginner in DSA or brushing up your skills, feel free
 
 ## 📁 Folder Structure (Example)
 
+DSA-Journey/
+│
+├── Sorting/
+│ ├── BubbleSort.java
+│ ├── InsertionSort.java
+│
+├── Searching/
+│ ├── LinearSearch.java
+│ ├── BinarySearch.java
+│
+└── README.md
