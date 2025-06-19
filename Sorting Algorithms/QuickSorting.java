@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class QuickSorting {
+    // funciton to find out the povit element
+    // povit element is the reference to do divide and it should be in correct
+    // location
     public static int partation(int[] arr, int low, int high) {
         int i = low - 1;
         for (int j = low; j < high; j++) {
