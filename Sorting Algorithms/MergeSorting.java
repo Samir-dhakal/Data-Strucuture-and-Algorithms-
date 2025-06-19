@@ -32,7 +32,7 @@ public class MergeSorting {
         int n2 = r - mid;
         int larr[] = new int[n1];
         int rarr[] = new int[n2];
-        for (int i = 0; i < n1; i++) {
+        for (int i = 0; i < n1; i++) {// copying the arry in the new array
             larr[i] = nums[l + i];
         }
         for (int i = 0; i < n2; i++) {
