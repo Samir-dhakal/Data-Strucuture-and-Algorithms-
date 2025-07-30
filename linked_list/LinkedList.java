@@ -1,3 +1,5 @@
+package linked_list;
+
 public class LinkedList {
     Node head = null;
 
@@ -24,6 +26,7 @@ public class LinkedList {
         head = newNode;
     }
 
+    // add last
     public void addLast(String data) {
         Node newNode = new Node(data);
 
