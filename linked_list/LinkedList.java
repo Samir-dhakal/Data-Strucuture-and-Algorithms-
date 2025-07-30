@@ -26,7 +26,6 @@ public class LinkedList {
         head = newNode;
     }
 
-    // add last
     public void addLast(String data) {
         Node newNode = new Node(data);
 
@@ -66,6 +65,7 @@ public class LinkedList {
         return;
     }
 
+    // delete last
     public void deleteLast() {
 
         Node currNode = head;
