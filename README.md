@@ -8,7 +8,8 @@ I'm currently learning DSA step by step and sharing all my solved exercises, not
 - ✅ Basic Sorting Algorithms (Bubble, Insertion, Selection, etc.)
 - ✅ Searching Techniques (Linear, Binary Search)
 - ✅ Recursion Problems
-- ✅ Stack, Queue, Linked List (coming soon...)
+- ✅ Linked List (Currently working )
+- ✅ Stack, Queue (coming soon...)
 - ✅ Java-based DSA implementations (more languages later)
 
 > I'm using **Java** as my primary language, but the logic is language-independent and can be applied elsewhere.
@@ -34,16 +35,3 @@ Hey! 👋 If you're also a beginner in DSA or brushing up your skills, feel free
 
 ---
 
-## 📁 Folder Structure (Example)
-
-DSA-Journey/
-│
-├── Sorting/
-│ ├── BubbleSort.java
-│ ├── InsertionSort.java
-│
-├── Searching/
-│ ├── LinearSearch.java
-│ ├── BinarySearch.java
-│
-└── README.md
