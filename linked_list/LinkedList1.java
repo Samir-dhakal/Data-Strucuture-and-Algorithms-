@@ -19,7 +19,8 @@ public class LinkedList1 extends LinkedList<String> {
 
     }
 
-    public void LoopDetector(Node head) {
+    // to find out weather the linked list is looped or not
+    public void IsLooped(Node head) {
         Node fast = head;
         Node slow = head;
         while (fast != null && slow != null) {
@@ -38,10 +39,10 @@ public class LinkedList1 extends LinkedList<String> {
     public static void main(String args[]) {
         LinkedList1 list = new LinkedList1();
         list.addFirst("is ");
-        list.addFirst("this  ");
+        list.addFirst("this ");
         list.addFirst("looped ");
-        list.addFirst("LinkedLIst");
+        list.addFirst("LinkedLIst ");
         System.out.println(list);
-        list.LoopDetector(list.head);
+        list.IsLooped(list.head);
     }
 }
